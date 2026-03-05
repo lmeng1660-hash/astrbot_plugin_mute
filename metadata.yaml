@@ -4,4 +4,4 @@ desc: "让大模型自主决定是否回复。通过中间件钩子在 system_pr
 description: "让大模型自主决定是否回复。通过中间件钩子在 system_prompt 中注入判断提示，LLM 可输出 [PASS] 选择沉默，避免不必要的回复。"
 version: 1.0.0
 author: 小纳
-repo: ""
+repo: "https://github.com/lmeng1660-hash/astrbot_plugin_mute"
