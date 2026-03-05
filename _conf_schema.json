@@ -1,0 +1,22 @@
+{
+  "skip_at": {
+    "type": "bool",
+    "description": "被@时跳过判断，直接回复（关闭则@也可以不回复）",
+    "default": false
+  },
+  "skip_private": {
+    "type": "bool",
+    "description": "私聊时跳过判断，直接回复",
+    "default": true
+  },
+  "custom_hint": {
+    "type": "string",
+    "description": "自定义提示词（留空使用默认提示）",
+    "default": ""
+  },
+  "fallback_reply": {
+    "type": "bool",
+    "description": "LLM未输出[REPLY]/[PASS]标记时，是否放行原文回复（关闭则丢弃）",
+    "default": true
+  }
+}
